@@ -105,3 +105,48 @@ nav {
     font-weight: 300;
 }
 
+#pricing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.price-container {
+    border: 1px black solid;
+    border-radius: 2px;
+    width: 100%;
+    height: 50%;
+    margin: 10px;
+}
+
+.price-heading {
+    background-color: #ddd;
+    text-transform: uppercase;
+    height: 15%;
+    padding: 5px;
+    text-align: center;
+}
+
+.price-desc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-evenly;
+    
+}
+
+.price-desc > h2 {
+    font-weight: 150;
+    margin-bottom: 10px;
+}
+
+.price-desc > button {
+    border: 0;
+    margin: 15px 0;
+    background-color: #f1c40f;
+    font-weight: 400;
+}
+
+.intro > button {
+    background-color: #f1c40f;
+}
